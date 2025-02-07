@@ -7,7 +7,7 @@ const readline = require("readline");
 
 // Initialize the WhatsApp client
 const client = new Client({
-  authStrategy: new LocalAuth({ clientId: "mustakim" }),
+  authStrategy: new LocalAuth(),
   puppeteer: {
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   },
