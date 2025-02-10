@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node .",
-    "build": "bun build ./index.js --compile --outfile ./app --define process.env.FLUENTFFMPEG_COV:false",
-    "build:win": "bun build --compile --target=bun-windows-x64 ./index.js --outfile rnr-sender --define process.env.FLUENTFFMPEG_COV:false"
+    "build": "bun build ./index.js --compile --outfile ./dist/rnr-sender --define process.env.FLUENTFFMPEG_COV:false",
+    "build:win": "bun build --compile --target=bun-windows-x64 ./index.js --outfile ./dist/rnr-sender-win --define process.env.FLUENTFFMPEG_COV:false"
   },
   "author": "",
   "license": "ISC",
